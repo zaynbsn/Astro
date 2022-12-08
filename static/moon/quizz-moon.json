@@ -58,7 +58,7 @@
     "data": [
       {
         "body_before": "Il y a eu au total",
-        "body_after": "missions réussis qui ont permis à l’Homme d’explorer la Lune.",
+        "body_after": "missions réussies qui ont permis à l’Homme d’explorer la Lune.",
         "icon": "./static/icons/diameter.svg",
         "select": "Sharpness",
         "options": [

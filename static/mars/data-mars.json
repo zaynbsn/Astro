@@ -14,7 +14,7 @@
               },
 
   "flight_duration" : {"value": "6 mois de voyage", "x": "47%", "y": "40%", "size": "1.6875vw", "color": "white"},
-  "duration_text": {"value": "En fusée, on est estimerait le temps de voyage entre la Terre et Mars à 6 mois. Nos futurs astronautes ont intérêts à être bien préparé ! ",
+  "duration_text": {"value": "En fusée, on estimerait le temps de voyage entre la Terre et Mars à 6 mois. Nos futurs astronautes ont intérêts à être bien préparé ! ",
                     "x": "45%", "y": "62%", "size": "1.2vw", "color": "white"
                   },
 
@@ -34,7 +34,7 @@
   "place_ss_text": {"value": "Mars est tout comme la Terre une planète appartenant à notre système solaire. Par rapport au Soleil, la Terre est la 3e planète et Mars est la 4e.", 
                           "x": "40%", "y": "43%", "size": "1.2vw", "color": "black"
                         },
-  "solar_rotation_text": {"value": "Une année est le temps que mets une planète pour effectuer le tour du Soleil.", 
+  "solar_rotation_text": {"value": "Une année est le temps que met une planète pour effectuer le tour du Soleil.", 
                           "x": "40%", "y": "45%", "size": "1.2vw", "color": "black"
                         },
   "solar_rotation_text2": {"value": "Sur la Terre une année fait 365,25 jours alors que sur Mars, elle fait 668,6 jours.", 

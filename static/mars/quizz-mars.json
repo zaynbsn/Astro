@@ -56,7 +56,7 @@
   {
     "data": [
       {
-        "body_before": "En fusée, on est estimerait le temps de voyage entre la Terre et Mars à",
+        "body_before": "En fusée, on estimerait le temps de voyage entre la Terre et Mars à",
         "body_after": ".",
         "icon": "./static/icons/diameter.svg",
         "select": "Sharpness",
