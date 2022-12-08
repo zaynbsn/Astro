@@ -8,7 +8,7 @@
   
   "dist_earth_moon": {"value": "400 000km", "x": "45%", "y": "43%", "size": "2.25vw", "color": "white"}, 
   "dist_compare_moon": {"value": "soit 400x la longueur de la France", "x": "41%", "y": "52%", "size": "1.2vw", "color": "white"}, 
-  "dist_text":{"value": "Elle est située à plus de 400 000 kilomètres au dessus de nos têtes. Cette distance est tellement grande que l’ensemble des planètes du système solaire pourrait être comprises entre nous et la Lune.",
+  "dist_text":{"value": "Cette distance est tellement grande que l’ensemble des planètes du système solaire pourrait être comprises entre nous et la Lune.",
                 "x": "37%", "y": "10%", "size": "1.2vw", "color": "white"
               }, 
 
