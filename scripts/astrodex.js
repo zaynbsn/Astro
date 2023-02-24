@@ -3,8 +3,8 @@ import { appendStaticAstrodexInfos, resumeSetup, appendResumeContent } from './q
 
 // MODAL
 let experiencesDataJson = await getDataJson("./static/experiences.json")
-if(localStorage.getItem("experiencesDataJson")){
-  experiencesDataJson = JSON.parse(localStorage.getItem("experiencesDataJson"))
+if(sessionStorage.getItem("experiencesDataJson")){
+  experiencesDataJson = JSON.parse(sessionStorage.getItem("experiencesDataJson"))
 }
 
 const addAstrodexListeners = () => {

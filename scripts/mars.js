@@ -3,11 +3,11 @@ import { appendStaticAstrodexInfos, quizzSetup, appendQuizzContent } from './qui
 import { addAstrodexListeners } from './astrodex.js'
 
 let experiencesDataJson = await getDataJson("./static/experiences.json")
-if(localStorage.getItem("experiencesDataJson")){
-  experiencesDataJson = JSON.parse(localStorage.getItem("experiencesDataJson"))
+if(sessionStorage.getItem("experiencesDataJson")){
+  experiencesDataJson = JSON.parse(sessionStorage.getItem("experiencesDataJson"))
 }
 experiencesDataJson[2].discovered = true
-localStorage.setItem("experiencesDataJson", JSON.stringify(experiencesDataJson))
+sessionStorage.setItem("experiencesDataJson", JSON.stringify(experiencesDataJson))
 
 let marsNavData = await getDataJson('./static/mars/nav-mars.json')
 const navContainer = document.querySelector(".navbar")

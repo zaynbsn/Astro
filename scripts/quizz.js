@@ -41,8 +41,8 @@ const quizzSetup = async (quizzDataJson) => {
   })
   
   validate.addEventListener('click', () => {
-    if(localStorage.getItem(`quizzDataJson-${subwin}`)){
-      quizzDataJson = JSON.parse(localStorage.getItem(`quizzDataJson-${subwin}`))
+    if(sessionStorage.getItem(`quizzDataJson-${subwin}`)){
+      quizzDataJson = JSON.parse(sessionStorage.getItem(`quizzDataJson-${subwin}`))
     }
     for (const res of quizzDataJson[globalIndex].data) {
       if (!res.is_user_response_valid){
@@ -73,8 +73,8 @@ const resumeSetup = (quizzDataJson) => {
 
 const appendQuizzContent = async (quizzDataJson, index) => {
   const validatebtn = document.querySelector('.validate')
-  if(localStorage.getItem(`quizzDataJson-${subwin}`)){
-    quizzDataJson = JSON.parse(localStorage.getItem(`quizzDataJson-${subwin}`))
+  if(sessionStorage.getItem(`quizzDataJson-${subwin}`)){
+    quizzDataJson = JSON.parse(sessionStorage.getItem(`quizzDataJson-${subwin}`))
   }
   const quizz = document.querySelector('.quizz')
   quizz.innerHTML = ""
@@ -109,12 +109,12 @@ const appendQuizzContent = async (quizzDataJson, index) => {
           sentence.user_response = event.target.value
           sentence.user_response === sentence.valid_answer ? sentence.is_user_response_valid = true : sentence.is_user_response_valid = false
           select.classList.add('minecraft-font')
-          localStorage.setItem(`quizzDataJson-${subwin}`, JSON.stringify(quizzDataJson))
+          sessionStorage.setItem(`quizzDataJson-${subwin}`, JSON.stringify(quizzDataJson))
         }else{
           sentence.user_response = event.target.value
           sentence.user_response === sentence.valid_answer ? sentence.is_user_response_valid = true : sentence.is_user_response_valid = false
           select.classList.remove('minecraft-font')
-          localStorage.setItem(`quizzDataJson-${subwin}`, JSON.stringify(quizzDataJson))
+          sessionStorage.setItem(`quizzDataJson-${subwin}`, JSON.stringify(quizzDataJson))
         }
       });
     })
